@@ -1,0 +1,295 @@
+body{
+background-color: white;
+background-size: 100%;
+background-image: url('../BilderTypsnitt/tentakler.jpg');	
+	padding: 0px 0px 0px 0px;
+	margin: -22px 0px -22px 0px;
+}
+
+#header {
+    min-width: 1000px;
+    min-height: 160px;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+	background: -moz-linear-gradient(#000066, #0066CC);
+}
+ 
+#headerBox {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+#logo {
+float: left;
+margin-top: -30px;
+background-image: url('../BilderTypsnitt/large_octopus.png');
+background-size: contain;
+height: 150px;
+width: 350px; 
+overflow: hidden;
+background-repeat: no-repeat;
+}
+
+#rubrik {
+color: #AC4B6C;
+text-align: center;
+font-family: 'Aquanaut';
+margin-top: 40px;
+margin-right: 670px;
+
+}
+
+#main {
+margin-left: 220px;
+margin-right: 30px;
+margin-top: 30px;
+background-color: #006699;
+border-radius: 20px;
+width: 900px;
+height: 860px;
+position: absolute;
+box-shadow: 7px 7px grey;
+position: absolute;
+}
+
+#regrubrik {
+font-family: 'Calibri', sans-serif;
+margin-top: 90px;
+}
+
+#controlwrap1 {
+width: 130px;
+height: 70px;
+background-color: #CCFFFF;
+border-radius: 10px;
+position: absolute;
+margin: 15px;
+box-shadow: 4px 4px grey;
+}
+
+#controlwrap2 {
+width: 190px;
+height: 185px;
+background-color: #CCFFFF;
+border-radius: 10px;
+position: absolute;
+margin: 15px;
+box-shadow: 4px 4px grey;
+}
+
+#registreringsruta {
+margin-left: 220px;
+margin-right: 30px;
+margin-top: 30px;
+background-color: #CCFFFF;
+border-radius: 20px;
+width: 900px;
+height: 560px;
+position: relative;
+box-shadow: 7px 7px grey;
+text-align: center;
+position: absolute;
+}
+
+#Submit {
+    height: 33px;
+    width:110px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left:5px;
+}
+
+#posted {
+height: 500px;
+width: 750px;
+margin: 15px;
+margin-left: 300px;
+position: relative;
+border-radius: 20px;
+background-color: #CCFFFF;
+box-shadow: 7px 7px grey;
+margin-bottom: 90px;
+}
+
+#kommentarerna {
+height: 450 px;
+width: 725 px;
+margin-left: 40px;
+margin-top: 50px;
+position: relative;
+}
+
+#posting {
+height: 300px;
+width: 750px;
+margin: 15px;
+margin-left: 300px;
+position: relative;
+border-radius: 20px;
+background-color: #CCFFFF;
+box-shadow: 7px 7px grey;
+margin-bottom: 90px;
+}
+
+#posta {
+	height: 31px;
+    width:80px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left: 5px;
+}
+
+#namn {
+    height: 27px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    padding-left:10px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left:5px
+}
+#email {
+    height: 27px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    padding-left:10px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left:5px
+}
+
+ @font-face {
+    font-family: Aquanaut;
+    src: url('Aquanaut.ttf');
+}
+
+#octo {
+text-align: center;
+font-family: 'Calibri', sans-serif;
+padding-top: 25px;
+}
+
+#posta {
+float: right;
+margin-right: 70px;
+width: 140px;
+border-radius: 8px;
+}
+
+
+#kommentar {
+text-align: center;
+
+}
+#kommentaren {
+  border-radius: 5px;
+  width: 80%;
+}
+
+#kommentarer
+{
+  text-align:left;
+  margin-left:30px;
+  margin-top: 30px;
+   width:90%
+}
+
+
+
+#footer {
+	width: 100%;
+	height:50px;
+	background: -moz-linear-gradient(#000066, #0066CC);
+	margin-top: 20px;
+	text-align: center;;
+	position:fixed;
+	bottom:0;
+	z-index:999999;
+}
+
+#texten {
+margin-top: 10px;
+}
+
+#LogIn{
+    height: 31px;
+    width:80px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left: 5px;
+}
+
+#LogOut {
+    height: 31px;
+    width:80px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left: 25px;
+	text-align:center;
+	position: relative
+}
+
+#Register{
+    height: 31px;
+    width:80px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left:5px;
+}
+
+.userControl {
+margin-top: 20px;
+position: relative;
+}
+
+#Login {
+margin-top: 10px;
+}
+
+#register {
+margin-top: 10px;
+}
+
+#loginform {
+width: 190px;
+margin-left: 10px;
+}
+
+#userLogin {
+    float:right;
+    margin: 10px;
+	padding-top: 50px;
+	margin-right: -15px;
+}
+ 
+#username {
+    height: 27px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    padding-left:10px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left:5px;
+}
+ 
+#password {
+    height: 27px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    padding-left:10px;
+    background: #FFFFFF;
+    border: 1px solid #d0cab5;
+    margin-left:5px;
+	margin-top: 5px;
+}
